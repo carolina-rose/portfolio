@@ -6,6 +6,7 @@ function App() {
     <Switch>
       <Route exact path="/"><Redirect path="/homepage" /></Route>
       <Route path="/homepage">Strona Główna</Route>
+      <Route path="/portfolio">Strona Główna</Route>
       <Route path="/about">O mnie</Route>
       <Route path="/projects">Projekty</Route>
       <Route path="/contact">Kontakt</Route>
